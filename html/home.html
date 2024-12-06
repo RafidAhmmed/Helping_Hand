@@ -7,8 +7,55 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <nav class="bg-gray-200 w-full h-[72px]">
+    <!-- nav bar -->
+    <div class="bg-slate-300 h-[72px] w-full flex justify-between top-0 z-10">
         <p class="px-4 md:px-6 p-2 md:p-4 text-lg md:text-3xl text-green-700 font-extrabold">Helping Hand</p>
-    </nav>
+        <div class="p-4 pr-3 md:pr-5 flex space-x-3 md:space-x-5 text-green-600 text-base md:text-xl align-middle">
+            <a href="#" class="hover:scale-110 hover:text-green-700 hover:cursor-pointer transition duration-300">About Us</a>
+            <a href="#popular_destination" class="hover:scale-110 hover:text-green-700 hover:cursor-pointer transition duration-300">News&Sstory</a>
+            <a href="#price" class="hover:scale-110 hover:text-green-700 hover:cursor-pointer transition duration-300">Reports</a>
+            <a href="#content" class="hover:scale-110 hover:text-green-700 hover:cursor-pointer transition duration-300">Join Us</a>
+        </div>
+    </div>
+
+    <!-- opening background -->
+    <div class="w-full h-[500px] md:h-[650px] bg-cover bg-center" style="background-image: url('../Photo/gaza.jpg');" >
+        <div class="flex flex-col items-center justify-center h-full">
+            <p class="bg-transparent text-2xl md:text-6xl font-bold text-center tracking-wider">Genocide in gaza</p><br/>
+            <button class="rounded-3xl p-1 md:p-2 px-2 md:px-4 bg-black text-white hover:scale-110 hover:cursor-pointer hover:bg-transparent hover:text-black transition duration-500 text-balance md:text-2xl"><a href="description">Read More</a></button>
+        </div>
+    </div>
+    <div class="w-full flex flex-col items-center bg-gray-200 p-16">
+        <h1 class="text-center text-xl md:text-4xl font-bold mb-4">Helping Hand</h1>
+        <p class="text-base text-center">
+            Welcome to Helping Hand, a charitable organization founded by the students and alumni of Jashore University of Science and Technology (JUST), Bangladesh. Rooted in the values of compassion, solidarity, and community upliftment, our mission is to bring positive change to society while supporting those in need.<br/>
+
+            Our activities range from providing financial aid to underprivileged students, organizing blood donation drives, and raising awareness on critical social and health issues, to distributing essentials to vulnerable communities. With a commitment to fostering equality and empowerment, we strive to create a brighter future for everyone.<br/>
+
+            Join us in our journey to elevate lives and contribute to a better tomorrow!
+        </p>
+    </div>
+    
+    <!-- News section -->
+    <div class="w-full text-center p-10">
+        <h1 class="font-bold text-xl md:text-3xl">Latest News</h1>
+        <div class="p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10">
+            <div class="relative h-[400px] md:h-[500px] w-full rounded-xl border border-transparent shadow-lg pb-20 hover:scale-105 transition duration-500 cursor-pointer">
+                <img src="" alt="1st news" class="h-[200px] md:h-[300px] w-full rounded-t-xl rounded-b-none object-cover">
+                <p class="text-center font-bold text-xl md:text-3xl p-5">1st news</p>
+                <button class="bg-transparent rounded-full p-1 md:p-2 px-2 md:px-3 hover:bg-blue-500 hover:text-white hover:scale-105 transition duration-300"><a href="link">More..</a></button>
+            </div>
+            <div class="relative h-[400px] md:h-[500px] w-full rounded-xl border border-transparent shadow-lg pb-16 hover:scale-105 transition duration-500 cursor-pointer">
+                <img src="" alt="2nd news" class="h-[200px] md:h-[300px] w-full rounded-t-xl rounded-b-none object-cover">
+                <p class="text-center font-bold text-xl md:text-3xl p-5">2nd news</p>
+                <button class="bg-transparent rounded-full p-1 md:p-2 px-2 md:px-3 hover:bg-blue-500 hover:text-white hover:scale-105 transition duration-300"><a href="link">More..</a></button>
+            </div>
+            <div class="relative h-[400px] md:h-[500px] w-full rounded-xl border border-transparent shadow-lg pb-20 hover:scale-105 transition duration-500 cursor-pointer">
+                <img src="" alt="3rd news"class="h-[200px] md:h-[300px] w-full rounded-t-xl rounded-b-none object-cover">
+                <p class="text-center font-bold text-xl md:text-3xl p-5">3rd news</p>
+                <button class="bg-transparent rounded-full p-1 md:p-2 px-2 md:px-3 hover:bg-blue-500 hover:text-white hover:scale-105 transition duration-300"><a href="link">More..</a></button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
