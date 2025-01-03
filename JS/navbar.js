@@ -1,4 +1,4 @@
-const navbar = document.getElementById('top');
+const navbar = document.getElementById('navbar');
         let lastScrollY = window.scrollY;
 
         window.addEventListener('scroll', () => {
